@@ -72,6 +72,17 @@ public class MyMain {
 //
 //        System.out.println("Good Bye !");
 
+        //exercise_07
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter two numbers");
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+
+        int sum = x + y;
+        double average = sum/2;
+
+        System.out.println("Summation of the two numbers is - "+sum);
+        System.out.println("Average is - "+average);
 
 
 
