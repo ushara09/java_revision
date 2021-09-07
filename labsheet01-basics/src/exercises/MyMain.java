@@ -73,16 +73,33 @@ public class MyMain {
 //        System.out.println("Good Bye !");
 
         //exercise_07
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter two numbers");
-        int x = sc.nextInt();
-        int y = sc.nextInt();
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter two numbers");
+//        int x = sc.nextInt();
+//        int y = sc.nextInt();
+//
+//        int sum = x + y;
+//        double average = sum/2;
+//
+//        System.out.println("Summation of the two numbers is - "+sum);
+//        System.out.println("Average is - "+average);
 
-        int sum = x + y;
-        double average = sum/2;
+        //exercise05
 
-        System.out.println("Summation of the two numbers is - "+sum);
-        System.out.println("Average is - "+average);
+        //square
+//        int i = 0;
+//        while(i < 5){
+//            System.out.println("* * * * *");
+//            i++;
+//        }
+
+        //trangle
+        for(int l = 0; l < 5; l++){
+            for(int m = 0; m < 5; m++){
+                System.out.println("*");
+            }
+
+        }
 
 
 
