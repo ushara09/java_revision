@@ -1,4 +1,4 @@
-package exercise01;
+package mediaAdapter;
 
 public class VlcPlayer implements AdvancedMediaPlayer{
     @Override

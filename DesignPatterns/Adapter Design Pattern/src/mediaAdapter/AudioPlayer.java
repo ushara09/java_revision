@@ -1,4 +1,4 @@
-package exercise01;
+package mediaAdapter;
 
 public class AudioPlayer implements MediaPlayer {
     @Override

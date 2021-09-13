@@ -1,4 +1,4 @@
-package exercise01;
+package mediaAdapter;
 
 public interface AdvancedMediaPlayer {
     public void playVLC(String fileName);
