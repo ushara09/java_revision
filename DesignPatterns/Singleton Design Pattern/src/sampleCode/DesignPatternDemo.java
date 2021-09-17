@@ -5,8 +5,8 @@ public class DesignPatternDemo {
 
        SingleObject object =  SingleObject.getInstance();
        object.showMessage();
-
-        
+        object.showMessage();
+        object.showMessage();
 
     }
 }

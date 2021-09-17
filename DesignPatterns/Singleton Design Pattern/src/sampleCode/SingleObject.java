@@ -11,6 +11,7 @@ public class SingleObject {
 
     //Get the only object available
     public static SingleObject getInstance(){
+        System.out.println("Object created");
         return instance;
     }
 
