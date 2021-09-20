@@ -30,7 +30,7 @@ public class Main {
         Singleton singleton2 = Singleton.getInstance();
         Singleton singleton3 = Singleton.getInstance();
 
-        //points to same memory address
+        //points to same memory address. it means from singleton class it had only created a one instance.
         System.out.println(singleton1);
         System.out.println(singleton2);
         System.out.println(singleton3);
