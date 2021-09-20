@@ -24,7 +24,7 @@ public class Main {
             //cloned object
             System.out.println("First name - "+p2.firstName);
             System.out.println("Last name - "+p2.lastName);
-            
+
         }catch (CloneNotSupportedException e){
             e.printStackTrace();
         }
