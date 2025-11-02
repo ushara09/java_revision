@@ -14,7 +14,7 @@ public class Main {
         // TODO 2: Create Consumer<User>
         //input user, no return
         Consumer<User> user1 = (User oldUser)->{
-            System.out.println("Name - "+newUser.get().getName()+", Age - "+newUser.get().getAge());
+            System.out.println("Name - "+oldUser.getName()+", Age - "+oldUser.getAge());
         };
         user1.accept(newUser.get());
 
